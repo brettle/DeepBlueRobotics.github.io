@@ -4,6 +4,8 @@ Options -MultiViews
 RewriteEngine on
 RewriteBase /
 
+RedirectMatch 404 /\.git
+
 RewriteCond %{HTTP_HOST} ^vault\.carlmontrobotics\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.vault\.carlmontrobotics\.org$
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
