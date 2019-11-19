@@ -1,0 +1,7 @@
+
+RewriteOptions inherit
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^shop\.carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shop\.carlmontrobotics\.org$
+RewriteRule ^/?$ "http\:\/\/carlmontrobotics\.org\/shop" [R=301,L]

@@ -1,0 +1,9 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gas\.carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gas\.carlmontrobotics\.org$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/script\.google\.com\/macros\/s\/AKfycbzhmOSQv131BAU5Qin8Ov0g7mUOxI0i7mdglo8jKUYHd7SVFA9U\/exec" [R=302,L]

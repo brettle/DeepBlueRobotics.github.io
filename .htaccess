@@ -1,0 +1,60 @@
+
+RewriteOptions inherit
+Options -MultiViews
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^vault\.carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vault\.carlmontrobotics\.org$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^/?$ "54\.148\.9\.172" [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^(.*)$ $1.php [L]
+
+ErrorDocument 404 http://www.carlmontrobotics.org/404
+RewriteCond %{HTTP_HOST} ^carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.carlmontrobotics\.org$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^volunteer$ "https\:\/\/docs\.google\.com\/forms\/d\/e\/1FAIpQLSdHOotm0ce9UsBJCIxhvLpx7TyZ\-4m6eQwwAehH_B9Gc6GDpQ\/viewform\?usp\=sf_link" [R=302,L]
+RewriteCond %{HTTP_HOST} ^carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.carlmontrobotics\.org$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^register$ "https\:\/\/docs\.google\.com\/forms\/d\/e\/1FAIpQLSfJZn6YncRpTmdHpkgSGfkaERodRTlXvWfyh3NMSNqxSPNpnA\/viewform\?usp\=sf_link" [R=302,L]
+RewriteCond %{HTTP_HOST} ^carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.carlmontrobotics\.org$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^interest$ "https\:\/\/goo\.gl\/forms\/bwlgLhKWx5DkkIs42" [R=302,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^join$ "https\:\/\/forms\.gle\/oMxHZWnX18FiAw5N6" [R=302,L]
+RewriteCond %{HTTP_HOST} ^carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.carlmontrobotics\.org$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^blog\/?$ "http\:\/\/blog\.carlmontrobotics\.org\/" [R=302,L]
+

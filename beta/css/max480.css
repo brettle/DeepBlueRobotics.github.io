@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+  .header-font {
+    font-size: 20px;
+  }
+  .sub-font {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 560px) {
+  .sponsor-width {
+  min-width: 98%;
+  }
+  #sponsor-text {
+  min-width: 100%;
+  }
+  .tier-width{
+    min-width: 95%;
+  }
+}

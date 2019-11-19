@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="Collabtive" -->
+<?xml-stylesheet href="" type="text/xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>My Messages</title>
+        <description></description>
+        <link>http://carlmontrobotics.org/colab/managemessage.php?action=mymsgs</link>
+        <lastBuildDate>Sun, 25 Sep 2016 23:02:40 +0100</lastBuildDate>
+        <generator>Collabtive</generator>
+    </channel>
+</rss>

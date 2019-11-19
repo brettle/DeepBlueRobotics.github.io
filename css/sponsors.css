@@ -1,0 +1,77 @@
+#sponsors {
+    margin-bottom: 16rem !important;
+}
+.sponsor {
+    margin-bottom: 16rem !important;
+    height: 16rem !important;
+}
+
+.logo {
+    position: relative !important;
+    width: 24rem !important;
+    height: 18rem !important;
+    margin: 0 !important;
+    left: calc(50% - 12rem) !important;
+    bottom: 10% !important;
+    transition: bottom 0.5s !important;
+    margin-bottom: 7rem !important;
+}
+
+.logo img {
+    position: relative !important;
+    top: 65% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    max-width: 95% !important;
+    max-height: 95% !important;
+}
+
+.description {
+    /* position and sizing */
+    position: relative !important;
+    margin-left: 2rem !important;
+    top: 20% !important;
+    left: 22% !important;
+    width: 50% !important;
+    transform: translateY(-50%) !important;
+    padding: 1.5rem !important;
+    /* font */
+    font-family: Work Sans !important;
+    font-size: 16pt !important;
+    color: black !important;
+    /* transition */
+    transition: opacity 0.5s, top 0.5s !important;
+    opacity: 0 !important;
+    /* box */
+    border: black !important;
+    background-color: white !important;
+    border-radius: 2rem !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.sponsor:hover .logo{
+    bottom: 0 !important;
+}
+
+.sponsor:hover .description {
+    top: 0 !important;
+    opacity: 1 !important;
+}
+
+.sponsor:hover .description:hover {
+    top: 0 !important;
+    opacity: 1 !important;
+    background-color: rgba(0,125,255,0.2) !important;
+    transition: background-color 0.5s !important;
+}
+
+.sponsor .description a:link {
+    color: black !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+}
+
+.sponsor .description a:visited {
+    color: black !important;
+    text-decoration: none !important;
+}

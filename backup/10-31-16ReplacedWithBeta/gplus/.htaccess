@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gplus\.carlmontrobotics\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gplus\.carlmontrobotics\.org$
+RewriteRule ^/?$ "https\:\/\/plus\.google\.com\/u\/0\/b\/106706001164554908700\/106706001164554908700\/posts" [R=301,L]
+

@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} -f 
+    RewriteCond %{REQUEST_URI} !upgrade$
+    RewriteRule .? - [L]
+    RewriteRule ^(.*)$ index.php?url=$1 [NC,QSA,L]
+</IfModule>
+RedirectMatch 403 ^/\.svn(/|$)

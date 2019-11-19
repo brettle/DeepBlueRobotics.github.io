@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .header-font {
+    font-size: 25px;
+  }
+  .sub-font {
+    font-size: 15px;
+  }
+  #redirect-wrap {
+    padding: 15px 10%;
+  }
+  #redirect-text {
+    min-width: 100%;
+    margin-bottom: 10px;
+  }
+  #redirect-btn {
+    float: left;
+  }
+  #list-chunk {
+    max-width: 100%;
+  }
+  #sponsorus-text {
+    min-width: 90%;
+    margin-left: 0;
+  }
+  #desktop-btn {
+    display: none;
+  }
+  #mobile-btn {
+    display: block;
+  }
+  #promobar {
+    padding: 5px 0px;
+  }
+  #footer-chunk {
+    max-width: 100%;
+    width: 100%;
+  }
+}
