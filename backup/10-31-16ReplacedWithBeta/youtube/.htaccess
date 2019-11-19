@@ -1,7 +1,0 @@
-
-RewriteEngine on
-
-RewriteCond %{HTTP_HOST} ^youtube\.carlmontrobotics\.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.youtube\.carlmontrobotics\.org$
-RewriteRule ^/?$ "https\:\/\/www\.youtube\.com\/channel\/UCCHENRjx_EE5mJVBh6iHmcQ\?\&amp\;ab_channel\=DeepBlueRobotics" [R=301,L]
-
