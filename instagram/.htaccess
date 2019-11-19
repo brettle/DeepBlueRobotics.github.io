@@ -1,7 +1,0 @@
-
-RewriteOptions inherit
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^instagram\.carlmontrobotics\.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.instagram\.carlmontrobotics\.org$
-RewriteRule ^/?$ "https\:\/\/www\.instagram\.com\/frcteam199\/" [R=301,L]
