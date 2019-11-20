@@ -29,6 +29,6 @@ changes live *using the following procedure*.
    the main website. If there are uncommitted changes, someone didn't read
    this (!) and you need to merge them into `~/beta.carlmontrobotics.org`, confirm that the result is ok on http://beta.carlmontrobotics.org and return to step #2. Untracked files associated with other applications can
    generally be ignored.
-8. Run `git fetch origin/master` to get the most recent changes from github.
+8. Run `git fetch origin` to get the most recent changes from github.
 9. Run `git reset --hard origin/master` to incorporate those changes into
    the live site.
