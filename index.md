@@ -1,1 +1,8 @@
-Test home page.
+---
+layout: default
+title: Test
+---
+
+# Test home page
+
+Test body
