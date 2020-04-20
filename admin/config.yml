@@ -2,7 +2,7 @@ backend:
   name: github
   repo: DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io
   branch: master
-  site_domain: flamboyant-brattain-ce0789
+  site_domain: flamboyant-brattain-ce0789.netlify.com
 
 media_folder: "images/uploads"
 
