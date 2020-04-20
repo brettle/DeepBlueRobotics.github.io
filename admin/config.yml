@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: DeepBlueRoboticsMentors.github.io/DeepBlueRoboticsMentors.github.io
+  repo: DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io
   branch: master
   site_domain: flamboyant-brattain-ce0789
 
