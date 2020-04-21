@@ -3,4 +3,8 @@ title: Carlmont Robotics
 description: Carlmont High School Robotics, Deep Blue, FRC Team 199
 markdown: kramdown
 highlighter: rouge
+plugins:
+  - jekyll-redirect-from
 
+whitelist:
+  - jekyll-redirect-from
