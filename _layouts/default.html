@@ -1,8 +1,14 @@
 {% include header.html %}
 
 <!--BEGIN PAGE CONTENT-->
+<!--#jumbotron is the div that contains each page's title and subtitle text-->
+<div id="jumbotron">
+	<h2 class="main-font header-font">{{ page.title }}</h2>
+	<h4 class="main-font sub-font">{{ page.subtitle }}</h4>
+</div>
 
+<!--#split-wrap creates a horizontal divider between preceding and following content-->
+<div id="split-wrap"></div>
 {{ content }}
-
 <!--INCLUDE FOOTER ON ALL PAGES-->
 {% include footer.html %}

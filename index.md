@@ -1,15 +1,11 @@
 ---
 layout: default
-title: Home
+title: MORE THAN JUST THE ROBOT.
+subtitle: Carlmont High School FRC Team 199
+short_name: Home
+permalink: /
 ---
-<!--#jumbotron is the div that contains each page's title and subtitle text-->
-<div id="jumbotron">
-	<h2 class="main-font header-font">MORE THAN JUST THE ROBOT.</h2>
-	<h4 class="main-font sub-font">Carlmont High School FRC Team 199</h4>
-</div>
 
-<!--#split-wrap creates a horizontal divider between preceding and following content-->
-<div id="split-wrap"></div>
 
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/Team2018.JPG" data-position="center center"></div>
 
