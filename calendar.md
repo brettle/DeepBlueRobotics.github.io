@@ -1,24 +1,11 @@
-<!--INCLUDE NAVIGATION BAR ON ALL PAGES-->
-<!--The following PHP code pastes all content within head.php in its place-->
-<!--head.php contains the opening body tag, so everything that follows will be within the wsite body-->
-<?php 
-		$header_referer = __FILE__;
-		include ("head.php");?>
+---
+layout: default
+title: CALENDAR
+subtitle: What's happening? Find out here!
+short_name: Calendar
+permalink: /calendar
+---
 
-<!--BEGIN PAGE CONTENT-->
-<!--#jumbotron is the div that contains each page's title and subtitle text-->
-<div id="jumbotron">
-	<h2 class="main-font header-font">
-			CALENDAR
-		</h2>
-	<h4 class="main-font sub-font">
-			What's happening? Find out here!
-		</h4>
-</div>
-
-<!--#split-wrap creates a horizontal divider between preceding and following content-->
-<div id="split-wrap">
-</div>
 <div class="content-wrap">
 	<p class="body-font">
 	NOTE: To view the calendar, you must be signed in to a Google account that is a member of the team's parent, mentor/volunteer, or student Google groups. If you are a member of one of those groups but need your Google acccount added to it, please see the footer of any recent message sent to the group for instructions. 
@@ -34,10 +21,3 @@
 <!--#split-wrap creates a horizontal divider between preceding and following content-->
 <div id="split-wrap"></div>
 <!--END PAGE CONTENT-->
-
-<!--INCLUDE FOOTER ON ALL PAGES-->
-<!--The following PHP code pastes all content within foot.php in its place-->
-<!--foot.php contains the closing body tag, so everything that precedes will be within the wsite body-->
-<?php 
-		$header_referer = __FILE__; 
-    include ("foot.php");?>

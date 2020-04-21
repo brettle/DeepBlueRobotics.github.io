@@ -1,26 +1,10 @@
-<!--INCLUDE NAVIGATION BAR ON ALL PAGES-->
-<!--The following PHP code pastes all content within head.php in its place-->
-<!--head.php contains the opening body tag, so everything that follows will be within the wsite body-->
-<?php 
-		$header_referer = __FILE__;
-		include ("head.php");?>
-
-
-<!--BEGIN PAGE CONTENT-->
-
-<!--#jumbotron is the div that contains each page's title and subtitle text-->
-<div id="jumbotron">
-	<h2 class="main-font header-font">
-		Our Sponsors
-	</h2>
-	<h4 class="main-font sub-font">
-		We cannot thank you enough!
-	</h4>
-</div>
-
-<!--#split-wrap creates a horizontal divider between preceding and following content-->
-<div id="split-wrap"></div>
-
+---
+layout: default
+title: Our Sponsors
+subtitle: We cannot thank you enough!
+short_name: Sponsors
+permalink: /sponsors
+---
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/sponsors/Davis/DSC02293.JPG" data-position="center center" data-speed="0.7"></div>
 
 <div class="content-wrap secondary-background">
@@ -245,7 +229,7 @@
 		</h3>
 	</div>
 	<div id="redirect-btn">
-		<a class="wsite-button wsite-button-large" href="sponsor-us.php">
+		<a class="wsite-button wsite-button-large" href="sponsor-us">
 				<span class="wsite-button-inner"><strong>SPONSOR US!</strong></span>
 			</a>
 	</div>
@@ -254,10 +238,3 @@
 <!--#split-wrap creates a horizontal divider between preceding and following content-->
 <div id="split-wrap"></div>
 <!--END PAGE CONTENT-->
-
-<!--INCLUDE FOOTER ON ALL PAGES-->
-<!--The following PHP code pastes all content within foot.php in its place-->
-<!--foot.php contains the closing body tag, so everything that precedes will be within the wsite body-->
-<?php 
-		$header_referer = __FILE__; 
-    include ("foot.php");?>

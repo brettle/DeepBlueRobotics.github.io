@@ -1,23 +1,10 @@
-<!--INCLUDE NAVIGATION BAR ON ALL PAGES-->
-<!--The following PHP code pastes all content within head.php in its place-->
-<!--head.php contains the opening body tag, so everything that follows will be within the wsite body-->
-<?php 
-		$header_referer = __FILE__;
-		include ("head.php");?>
-
-
-<!--BEGIN PAGE CONTENT-->
-
-<!--#jumbotron is the div that contains each page's title and subtitle text-->
-<div id="jumbotron">
-	<h2 class="main-font header-font">
-			Sponsor us
-		</h2>
-	<h4 class="main-font sub-font">
-			Information about how you can help.
-		</h4>
-</div>
-
+---
+layout: default
+title: Sponsor us
+subtitle: Information about how you can help.
+short_name: Sponsor Us
+permalink: /sponsor-us
+---
 <div class="content-wrap secondary-background">
 	<h3 class="main-font title-font white-font ">
 		Robots are expensive.
@@ -150,11 +137,3 @@
 
 <!--#split-wrap creates a horizontal divider between preceding and following content-->
 <div id="split-wrap"></div>
-<!--END PAGE CONTENT-->
-
-<!--INCLUDE FOOTER ON ALL PAGES-->
-<!--The following PHP code pastes all content within foot.php in its place-->
-<!--foot.php contains the closing body tag, so everything that precedes will be within the wsite body-->
-<?php 
-		$header_referer = __FILE__; 
-    include ("foot.php");?>
