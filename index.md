@@ -17,7 +17,7 @@ permalink: /
 			</h3>
 	</div>
 	<div id="redirect-btn">
-		<a class="wsite-button wsite-button-large" href="about.php">
+		<a class="wsite-button wsite-button-large" href="about">
 			<span class="wsite-button-inner"><strong>OUR STORY</strong></span>
 		</a>
 	</div>
@@ -49,7 +49,7 @@ permalink: /
 			</h3>
 	</div>
 	<div id="redirect-btn">
-		<a class="wsite-button wsite-button-large" href="shop.php">
+		<a class="wsite-button wsite-button-large" href="shop">
 			<span class="wsite-button-inner"><strong>SHOP</strong></span>
 		</a>
 	</div>
