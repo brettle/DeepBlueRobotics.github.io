@@ -1,5 +1,6 @@
 {% assign items = "Home, About, Blog, Shop, Sponsors, Sponsor Us, Media, Calendar, Contact" | split: ", " %}
 {% for item in items %}
+    {% assign target = '' %}
     {% assign new_window = site.pages | where:"short_name",item | map: "new_window" | first %}
     {% if new_window %}
         {% assign target = 'target="_blank"' %}
