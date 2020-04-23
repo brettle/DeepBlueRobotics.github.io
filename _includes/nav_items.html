@@ -1,6 +1,10 @@
 {% assign items = "Home, About, Blog, Shop, Sponsors, Sponsor Us, Media, Calendar, Contact" | split: ", " %}
 {% for item in items %}
+    {% assign new_window = site.pages | where:"short_name",item | map: "new_window" | first %}
+    {% if new_window %}
+        {% assign target = 'target="_blank"' %}
+    {% endif %}
    <li {% if page.short_name == item %} id='active' {% endif %}>
-    <a href='{{site.pages | where:"short_name",item | map: "permalink" | first }}'><strong>{{item}}</strong></a>
+    <a href='{{site.pages | where:"short_name",item | map: "permalink" | first }}' {{target}}><strong>{{item}}</strong></a>
 </li>
 {% endfor %}
