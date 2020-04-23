@@ -4,11 +4,16 @@ title: MEDIA
 subtitle: Our posts, vids, and pics. Follow us!
 short_name: Media
 permalink: /media
+
+social_media:
+  title: Social Media
+photo_gallery:
+  title: Photo Gallery
 ---
 
 <div class="content-wrap">
 	<h3 class="main-font title-font black-font bottommargin-font" style="float:left">
-		Social Media
+		{{page.social_media.title}}
 	</h3>
 	<!-- Go to www.addthis.com/dashboard to customize your tools --> 
 	<div class="addthis_inline_follow_toolbox" style="float:right"></div>
@@ -17,7 +22,7 @@ permalink: /media
 		<iframe src="https://www.youtube.com/embed?listType=playlist&list=PL_uLVutPGMwP0qteV-TlLQf2oyapuls5k" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<h3 class="main-font title-font black-font topmargin-font bottommargin-font">
-		Photo Gallery
+		{{page.photo_gallery.title}}
 	</h3>
 	<div id="nanoGalleryContainer"><div id="nanoGallery"></div></div>
 	<script>
