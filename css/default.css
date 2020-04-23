@@ -16,13 +16,10 @@ pre,
 form,
 body,
 html,
-div.paragraph,
-p,
 blockquote,
 fieldset,
 input {
 	margin: 0;
-	padding 0;
 }
 
 body {
@@ -437,7 +434,7 @@ blockquote {
 	display: block;
 	max-width: 30%;
 	margin-top: 10px;
-	float: background-color: none;
+	background-color: none;
 }
 
 .mentor-width {
