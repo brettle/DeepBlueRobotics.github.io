@@ -4,61 +4,89 @@ title: Our Sponsors
 subtitle: We cannot thank you enough!
 short_name: Sponsors
 permalink: /sponsors
+corporate:
+  title: Corporate Sponsors
+  image: images/sponsors/Davis/DSC02293.JPG
+  content: Thank you very much for your support!
+great_white:
+  title: Great White
+  amount: $2,500+
+  sponsors:
+    - title: Abbott Fund
+      image: images/sponsors/AbbottFund.jpg
+      href: http://www.abbottfund.org/
+      content: The Abbott Fund supports a diverse range of projects around the globe – projects where financial support from the Abbott Fund, together with Abbott's people, products and expertise, can make a difference.
+    - title: Google
+      image: images/sponsors/Google.svg
+      href: http://www.google.com/
+      content: Google, originally a search engine for the infant web, has grown into a multi-company network -- developing everything from Chromebooks to self-driving cars. Their work continues to improve the lives of people around the world every day.
+    - title: Pentair
+      image: images/sponsors/Pentair.png
+      href: http://www.pentairthermal.com/index.aspx
+      content: Pentair Thermal Management is a thermal engineering company dedicated to innovation and customer satisfaction.
+    - title: Sequoia Union High School District
+      image: images/sponsors/SUHSD.png
+      href: http://www.seq.org/
+      content: The Sequoia Union High School District annually serves more than 8900 9th to 12th grade students, including Carlmont High School.
+tiger_sharks:
+  title: Tiger Sharks
+  amount: $750-$2499
+  sponsors:
+    - title: Abbott Fund
+      image: images/sponsors/AbbottFund.jpg
+      href: http://www.abbottfund.org/
+      content: The Abbott Fund supports a diverse range of projects around the globe – projects where financial support from the Abbott Fund, together with Abbott's people, products and expertise, can make a difference.
+    - title: Google
+      image: images/sponsors/Google.svg
+      href: http://www.google.com/
+      content: Google, originally a search engine for the infant web, has grown into a multi-company network -- developing everything from Chromebooks to self-driving cars. Their work continues to improve the lives of people around the world every day.
+    - title: Pentair
+      image: images/sponsors/Pentair.png
+      href: http://www.pentairthermal.com/index.aspx
+      content: Pentair Thermal Management is a thermal engineering company dedicated to innovation and customer satisfaction.
+    - title: Sequoia Union High School District
+      image: images/sponsors/SUHSD.png
+      href: http://www.seq.org/
+      content: The Sequoia Union High School District annually serves more than 8900 9th to 12th grade students, including Carlmont High School.
 ---
-<div class="parallax-window" data-parallax="scroll" data-image-src="images/sponsors/Davis/DSC02293.JPG" data-position="center center" data-speed="0.7"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="{{page.corporate.image}}" data-position="center center" data-speed="0.7"></div>
 
 <div class="content-wrap secondary-background">
 	<h3 class="main-font title-font white-font">
-		Corporate Sponsors
+		{{page.corporate.title}}
 	</h3>
 	<p class="body-font white-font">
-		Thank you very much for your support!
+		{{page.corporate.content | markdownify}}
 	</p>
 </div>
 
 <div class="content-wrap">
 	<div id="label">
 		<h3 class="main-font subtitle-font center-font">
-			Great White
+			{{page.great_white.title}}
 		</h3>
 		<p class="body-font center-font">
-			$2,500+
+			{{page.great_white.amount}}
 		</p>
 	</div>
 	<div id="sponsors">
+    {% for s in page.great_white.sponsors %}
 		<div class="sponsor">
 			<div class="logo">
-				<img src="images/sponsors/AbbottFund.jpg">
+				<img src="{{s.image}}">
 			</div>
-			<div class="description"><a href="http://www.abbottfund.org/" target="_blank">The Abbott Fund supports a diverse range of projects around the globe – projects where financial support from the Abbott Fund, together with Abbott's people, products and expertise, can make a difference.</a></div>
+			<div class="description"><a href="{{s.href}}" target="_blank">{{s.content | markdownify}}</a></div>
 		</div>
-		<div class="sponsor">
-			<div class="logo">
-				<img src="images/sponsors/Google.svg">
-			</div>
-			<div class="description"><a href="https://www.google.com/about/" target="_blank">Google, originally a search engine for the infant web, has grown into a multi-company network -- developing everything from Chromebooks to self-driving cars. Their work continues to improve the lives of people around the world every day.</a></div>
-		</div>
-		<div class="sponsor">
-			<div class="logo">
-				<img src="images/sponsors/Pentair.png">
-			</div>
-			<div class="description"><a href="http://www.pentairthermal.com/index.aspx" target="_blank">Pentair Thermal Management is a thermal engineering company dedicated to innovation and customer satisfaction.</a></div>
-		</div>
-		<div class="sponsor">
-			<div class="logo">
-				<img src="images/sponsors/SUHSD.png">
-			</div>
-			<div class="description"><a href="http://www.seq.org/" target="_blank">The Sequoia Union High School District annually serves more than 8900 9th to 12th grade students, including Carlmont High School.</a></div>
-		</div>
+    {% endfor %}
 	</div>
 
 
 	<div id="label">
 		<h3 class="main-font subtitle-font center-font">
-			Tiger Sharks
+			{{page.tiger_sharks.title}}
 		</h3>
 		<p class="body-font center-font">
-			$750-$2499
+			{{page.tiger_sharks.amount}}
 		</p>
 	</div>
 	<div class="list-wrap">
