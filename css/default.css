@@ -467,7 +467,7 @@ blockquote {
 	padding: none;
 }
 
-.tier-width div {
+.tier-width .price {
 	border-radius: 100%;
 	background: black;
 	height: 100px;
