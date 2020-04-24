@@ -15,9 +15,89 @@ backend:
   site_domain: flamboyant-brattain-ce0789.netlify.com
 {% endif %}
 
-media_folder: "images/uploads"
+media_folder: "images"
 
 collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "index"
+        file: "index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - label: Actions
+            name: actions
+            widget: list
+            fields:
+              - label: "Destination Page"
+                name: link_href
+                widget: relation
+                collection: pages
+                displayFields: ["short_name"]
+                searchFields: ["short_name"]
+                valueField: permalink
+              - {label: "Link Text", name: link_text, widget: string }
+              - {label: "Blurb", name: content, widget: markdown }
+              - {label: "Image", name: image, widget: image }
+      - label: "About Page"
+        name: "about"
+        file: "about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+      - label: "Blog Page"
+        name: "blog"
+        file: "blog.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+      - label: "Shop Page"
+        name: "shop"
+        file: "shop.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+      - label: "Sponsors Page"
+        name: "sponsors"
+        file: "sponsors.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+      - label: "Sponsor Us Page"
+        name: "sponsor-us"
+        file: "sponsor-us.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+      - label: "Media Page"
+        name: "media"
+        file: "media.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+      - label: "Calendar Page"
+        name: "calendar"
+        file: "calendar.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Name in navigation bar", name: short_name, widget: string}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/" # The path to the folder where the documents are stored
@@ -27,13 +107,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
-    folder: ""
-    create: true
-    slug: "{{slug}}"
-    extension: "md"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
