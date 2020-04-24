@@ -21,7 +21,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Home Page"
+      - label: "Home"
         name: "index"
         file: "index.md"
         fields:
@@ -32,7 +32,7 @@ collections:
             name: actions
             widget: list
             fields:
-              - label: "Destination Page"
+              - label: "Destination"
                 name: link_href
                 widget: relation
                 collection: pages
@@ -42,69 +42,59 @@ collections:
               - {label: "Link Text", name: link_text, widget: string }
               - {label: "Blurb", name: content, widget: markdown }
               - {label: "Image", name: image, widget: image }
-      - label: "About Page"
+      - label: "About"
         name: "about"
         file: "about.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-      - label: "Blog Page"
+      - label: "Blog"
         name: "blog"
         file: "blog.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-      - label: "Shop Page"
+      - label: "Shop"
         name: "shop"
         file: "shop.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-      - label: "Sponsors Page"
+      - label: "Sponsors"
         name: "sponsors"
         file: "sponsors.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-      - label: "Sponsor Us Page"
+      - label: "Sponsor Us"
         name: "sponsor-us"
         file: "sponsor-us.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-      - label: "Media Page"
+      - label: "Media"
         name: "media"
         file: "media.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-      - label: "Calendar Page"
+      - label: "Calendar"
         name: "calendar"
         file: "calendar.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-      - label: "Contact Page"
+      - label: "Contact"
         name: "contact"
         file: "contact.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Name in navigation bar", name: short_name, widget: string}
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
