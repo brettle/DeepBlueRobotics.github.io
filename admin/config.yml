@@ -1,8 +1,19 @@
+---
+---
+{% if site.github.environment == "development" %}
+{%comment%}For local development{%endcomment%}
+# See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+# for doing development locally.
+backend:
+  name: git-gateway
+local_backend: true
+{% else %}
 backend:
   name: github
   repo: DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io
   branch: master
   site_domain: flamboyant-brattain-ce0789.netlify.com
+{% endif %}
 
 media_folder: "images/uploads"
 
