@@ -1,0 +1,9 @@
+{% include header.html %}
+<!--BEGIN PAGE CONTENT-->
+<!--#jumbotron is the div that contains each page's title and subtitle text-->
+<div id="jumbotron">
+	<h2 class="main-font header-font">{{ page.title }}</h2>
+	<h4 class="main-font sub-font">{{ page.subtitle }}</h4>
+</div>
+{{ content }}
+{% include footer.html %}

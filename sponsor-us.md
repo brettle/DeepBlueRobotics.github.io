@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: Sponsor us
 subtitle: Information about how you can help.
 short_name: Sponsor Us
