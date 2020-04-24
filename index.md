@@ -4,21 +4,19 @@ title: MORE THAN JUST THE ROBOT.
 subtitle: Carlmont High School FRC Team 199
 short_name: Home
 permalink: /
-
 actions:
   - content: Promoting STEM and Community Service. Meet our team!
     link_text: OUR STORY
-    link_href: about
+    link_href: /about
     image: images/Team2018.JPG
   - content: Become an official sponsor!
     link_text: SPONSOR US
-    link_href: sponsor-us
-    image: images/Davis/DSC02293.JPG
+    link_href: /sponsor-us
+    image: images/DSC02293.JPG
   - content: Shop at our online store!
     link_text: SHOP
-    link_href: shop
-    image: images/Davis/DSC01952.JPG
-
+    link_href: /shop
+    image: images/DSC01952.JPG
 ---
 {% for action in page.actions %}
   {% if action.image %}
