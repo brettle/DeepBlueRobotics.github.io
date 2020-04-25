@@ -16,7 +16,25 @@ backend:
 {% endif %}
 
 media_folder: "images"
-
+reusable_fields:
+  - &title {label: Title, name: title, widget: string}
+  - &subtitle {label: Subtitle, name: subtitle, widget: string}
+  - &short_name {label: "Name in navigation bar", name: short_name, widget: string}
+  - &image {label: "Image", name: image, widget: image }
+  - &content {label: "Content", name: content, widget: markdown }
+  - &url {label: "URL", name: "href", widget: string}
+  - &title_content_image [*title, *content, *image]
+  - &sponsors
+    - *title
+    - {label: "Amount", name: amount, widget: string}
+    - label: Sponsors
+      name: sponsors
+      widget: list
+      fields:
+        - *title
+        - *image
+        - *url
+        - *content
 collections:
   - name: "pages"
     label: "Pages"
@@ -25,9 +43,9 @@ collections:
         name: "index"
         file: "index.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
           - label: Actions
             name: actions
             widget: list
@@ -41,60 +59,152 @@ collections:
                 valueField: permalink
               - {label: "Link Text", name: link_text, widget: string }
               - {label: "Blurb", name: content, widget: markdown }
-              - {label: "Image", name: image, widget: image }
+              - *image
       - label: "About"
         name: "about"
         file: "about.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
+          - label: Who We Are
+            name: who_we_are
+            widget: object
+            fields: *title_content_image
+          - label: Mission
+            name: mission
+            widget: object
+            fields: *title_content_image
+          - label: History
+            name: history
+            widget: object
+            fields: *title_content_image
+          - label: Our Mentors
+            name: our_mentors
+            widget: object
+            fields:
+              - *title
+              - *content
+              - *image
+              - label: Mentors
+                name: mentors
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string }
+                  - {label: Role, name: role, widget: string }
+
       - label: "Blog"
         name: "blog"
         file: "blog.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
       - label: "Shop"
         name: "shop"
         file: "shop.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
       - label: "Sponsors"
         name: "sponsors"
         file: "sponsors.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
+          - label: Corporate
+            name: corporate
+            widget: object
+            fields: *title_content_image
+          - label: Great White
+            name: great_white
+            widget: object
+            fields: *sponsors
+          - label: Tiger Sharks
+            name: tiger_sharks
+            widget: object
+            fields: *sponsors
+          - label: Hammerhead Sharks
+            name: hammerhead_sharks
+            widget: object
+            fields: *sponsors
+          - label: Reef Sharks
+            name: reef_sharks
+            widget: object
+            fields: *sponsors
+          - label: Sponsor Us
+            name: sponsor_us
+            widget: object
+            fields:
+              - label: "Destination"
+                name: link_href
+                widget: relation
+                collection: pages
+                displayFields: ["short_name"]
+                searchFields: ["short_name"]
+                valueField: permalink
+              - {label: "Link Text", name: link_text, widget: string }
+              - {label: "Blurb", name: content, widget: markdown }
+
       - label: "Sponsor Us"
         name: "sponsor-us"
         file: "sponsor-us.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
+          - {label: "Tagline", name: tagline, widget: string}
+          - {label: "Intro", name: intro, widget: object, fields: [*title, *content]}
+          - {label: "Become a Corporate Sponsor", name: become_a_corporate_sponsor, widget: object, fields: [*title, *content]}
+          - {label: "Become a Personal Sponsor", name: become_a_personal_sponsor, widget: object, fields: [*title, *content]}
+          - {label: "Sponsor Benefits", name: sponsor_benefits, widget: object, fields: [*title, *content]}
+          - {label: "Need More Info?", name: need_more_info, widget: object, fields: [*title, *content]}
+          - {label: "Donation Tiers", name: tiers_intro, widget: object, fields: [*title, *content]}
+          - label: Tiers
+            name: tiers
+            widget: list
+            fields:
+              - *title
+              - {label: "Amount", name: amount, widget: string}
+              - *content
+
       - label: "Media"
         name: "media"
         file: "media.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
+          - label: Social Media
+            name: social_media
+            widget: object
+            fields:
+              - *title
+          - label: Photo Gallery
+            name: photo_gallery
+            widget: object
+            fields:
+              - *title
       - label: "Calendar"
         name: "calendar"
         file: "calendar.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
+          - label: Intro
+            name: intro
+            widget: object
+            fields:
+              - *content
       - label: "Contact"
         name: "contact"
         file: "contact.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Name in navigation bar", name: short_name, widget: string}
+          - *title
+          - *subtitle
+          - *short_name
+          - {label: "Content", name: body, widget: markdown}
+
