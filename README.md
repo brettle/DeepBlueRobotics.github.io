@@ -1,9 +1,7 @@
+# Introduction
 ![GitHub deployments](https://img.shields.io/github/deployments/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/github-pages?label=carlmontrobotics.org%20update) ![GitHub deployments](https://img.shields.io/github/deployments/DeepBlueRobotics/DeepBlueRobotics.github.io/github-pages?label=deepbluerobotics.github.io%20update)
 
-
-# Introduction
-
-These are instructions for maintaining the carlmontrobotics.org website. 
+These are instructions for maintaining the [carlmontrobotics.org](https://carlmontrobotics.org/) website. 
 
 There are three types of changes that you might want to make:
 
