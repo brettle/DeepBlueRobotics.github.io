@@ -33,7 +33,8 @@ To change content:
  1. Go to https://deepbluerobotics.github.io/admin. If prompted, sign in to GitHub and give the NetlifyCMS application permission to write to the DeepBlueRobotics/DeepBlueRobotics.github.io repository.
  2. Select the page you want to edit. The various bits of content on that page will be displayed in a way that allow you to edit them.
  3. Make the changes you want.
- 4. Click `Publish` in the upper right corner and select `Publish Now`. It will take a few minutes for your changes to show up at https://deepbluerobotics.github.com. If you aren't sure whether 
+ 4. Click `Publish` in the upper right corner and select `Publish Now`. It should only take a few seconds for your changes to show up at https://deepbluerobotics.github.io. If you aren't sure whether the publication process has finished yet, you can check https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/deployments to see how recently the last deployment occurred.
+ 5. Repeat steps 2 through 4 for each page that has content you want to change.
 
 ## Changing Layout and Styling
 
