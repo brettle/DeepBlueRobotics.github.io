@@ -35,16 +35,29 @@ To change content:
  3. Make the changes you want.
  4. Click `Publish` in the upper right corner and select `Publish Now`. It should only take a few seconds for your changes to show up at https://deepbluerobotics.github.io. If you aren't sure whether the publication process has finished yet, you can check https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/deployments to see how recently the last deployment occurred.
  5. Repeat steps 2 through 4 for each page that has content you want to change.
+ 6. Follow [the instructions for requesting that your changes be merged into www.carlmontrobotics.org](#requesting-merging-of-changes-into-the-production-website).
 
 ## Changing Layout and Styling
 
+To change layout and styling you will need to know [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and a working understanding of [Jekyll](https://jekyllrb.com/docs/). The site is hosted by [GitHub Pages](https://help.github.com/en/github/working-with-github-pages) which uses Jekyll to regenerate the site from the source files whenever a source file is changed. You can change the files online at https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/.
+
+Once you commit a change, it should only take a few seconds for your changes to show up at https://deepbluerobotics.github.io. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/deployments to see how recently the last deployment occurred. 
+
+Once you are happy with how your changes appear on a variety of devices/browsers, follow [the instructions for requesting that your changes be merged into www.carlmontrobotics.org](#requesting-merging-of-changes-into-the-production-website).
+
 ## Changing Structure
 
-## Previewing Changes on the Staging Website
+To change the structure of the site or it's content you will need to know how to configure [NetlifyCMS](https://www.netlifycms.org/) so that content editors can continue to make changes to the content without needing any special skills. You can make structure changes by editing [admin/config.yaml](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/admin/config.yaml) and the site's source files such that the fields in `admin/config.yaml` specify appropriate widgets for editing the various parts of the site's source files. For detailed documentation, see [the NetlifyCMS docs](https://www.netlifycms.org/docs/), especially the docs concerning [options for configuring  `collections`](https://www.netlifycms.org/docs/configuration-options/#collections).
+
+Once you commit a change, it should only take a few seconds for your changes to show up at https://deepbluerobotics.github.io. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/deployments to see how recently the last deployment occurred. 
+
+Once you are happy with how your changes appear on a variety of devices/browsers, follow [the instructions for requesting that your changes be merged into www.carlmontrobotics.org](#requesting-merging-of-changes-into-the-production-website).
 
 ## Requesting Merging of Changes into the Production Website
 
-## Merging Changes into Production Website
+To request inclusion of your changes in the production website, [make a "pull request"](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/pull/new/master) and then let a reviewer know that you have done so.
+
+## Merging Changes into the Production Website
 
 Changes should be made to the DeepBlueRobotics/DeepBlueRobotics.github.io repository, previewed at https://DeepBlueRobotics.github.io, and then a pull request should be made to this repository. If the preview is acceptable to a mentor, the pull request should be merged and the result will be live. If a change needs to be undone, the corresponding pull request can be opened and reverted to create a new pull request with undoes it. That pull request should then be merged to undo the original pull request.
 
