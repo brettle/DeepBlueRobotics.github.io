@@ -10,7 +10,7 @@ local_backend: true
 {% else %}
 backend:
   name: github
-  repo: DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io
+  repo: {{site.github.owner_name}}/{{site.github.project_title}} # DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io
   branch: master
   site_domain: flamboyant-brattain-ce0789.netlify.com
 {% endif %}
