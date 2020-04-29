@@ -1,7 +1,7 @@
 ---
 ---
 {% if site.github.environment == "development" %}
-{%comment%}For local development{%endcomment%}
+{% comment %}For local development{% endcomment %}
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 # for doing development locally.
 backend:
@@ -12,7 +12,12 @@ backend:
   name: github
   repo: {{site.github.owner_name}}/{{site.github.project_title}} # DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io
   branch: master
+  {% if site.github.owner_name == "DeepBlueRoboticsMentors" %}
   site_domain: flamboyant-brattain-ce0789.netlify.com
+  {% elsif site.github.owner_name == "DeepBlueRobotics" %}
+  site_domain: hopeful-roentgen-7d9a3b.netlify.com
+  {% comment %}Add additional elsif clauses for other GitHub users/orgs Netlify site domains above this line{% endcomment %}
+  {% endif %}
 {% endif %}
 
 media_folder: "images"
