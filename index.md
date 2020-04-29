@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MORE THAN JUST THE ROBOT.
+title: MORE THAN JUST THE ROBOT!
 subtitle: Carlmont High School FRC Team 199
 short_name: Home
 permalink: /
