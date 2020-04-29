@@ -79,7 +79,7 @@ collections:
           - label: Mission
             name: mission
             widget: object
-            fields: *title_content_image
+            fields: [*title, *content]
           - label: History
             name: history
             widget: object
