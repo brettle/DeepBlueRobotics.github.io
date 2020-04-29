@@ -94,5 +94,19 @@ Although it's not strictly necessary, if you have a Mac or Linux computer and ar
 
 ## Configuring a New Repository
 
+If you want to fork the repository for use as the GitHub pages site for a user or organization (note that the site's internal links won't work if you try to use it as a *project* GitHub pages site):
+
+ 1. Fork the https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io repository to your own account or an organization
+ 2. Rename the forked repository to `<user>.github.io` or `<organization>.github.io`.
+ 3.  To make the Netlify CMS admin page work:
+  1. Follow the [Creating an GitHub OAuth App](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-an-github-oauth-app) and [Creating a Netlify Site](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-a-netlify-site) parts of [these instructions](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html)
+  2. Edit `admin/config.yml` add ```
+  {% elsif site.github.owner_name == "<your user or organization>" %}
+  site_domain: <your netlify site name>.netlify.com
+  ```
+  above the line that reads ```
+    {% comment %}Add additional elsif clauses for other GitHub users/orgs Netlify site domains above this line{% endcomment %}
+```
+
 # Behind the Scenes
 
