@@ -1,12 +1,11 @@
 # Introduction
-![GitHub deployments](https://img.shields.io/github/deployments/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/github-pages?label=carlmontrobotics.org%20update) ![GitHub deployments](https://img.shields.io/github/deployments/DeepBlueRobotics/DeepBlueRobotics.github.io/github-pages?label=deepbluerobotics.github.io%20update)
 
 These are instructions for maintaining the [carlmontrobotics.org](https://carlmontrobotics.org/) website. 
 
 There are three types of changes that you might want to make:
 
  * Changes to *content* like text and images. Content changes also include changes to basic text formatting changes such as bold, italics, lists, and links, but don't include things like font or font size. **You don't need any special skills to make content changes.**
- * Changes to *layout and styling*. Layout and styling dictate where and how various bits of content is displayed on a page, including fonts, font sizes, colors, positioning, and how the page will appear on different devices or in different sized windows. To make layout and styling changes, you will need to know [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) so that the site will look attractive and work effectively across devices. You will also need a working understanding of Jekyll.
+ * Changes to *layout and styling*. Layout and styling dictate where and how various bits of content is displayed on a page, including fonts, font sizes, colors, positioning, and how the page will appear on different devices or in different sized windows. To make layout and styling changes, you will need to know [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) so that the site will look attractive and work effectively across devices. You will also need a working understanding of [Jekyll](https://jekyllrb.com/docs/).
  * Changes to *structure*. Structure changes include changes to the types of content on a page, how the various bits of content relate to each other, and which page contains which content. Adding or deleting pages or sections of pages are examples of structure changes. To make structure changes you will need to know how to configure [NetlifyCMS](https://www.netlifycms.org/) so that content editors can continue to make changes to the content without needing any special skills.
 
 To make changes to the carlmontrobotics.org website:
@@ -17,11 +16,11 @@ To make changes to the carlmontrobotics.org website:
 
 The editor and reviewer both need to have GitHub accounts. If you don't have one, just [sign up](https://github.com/join). 
 
-Editors need to be members of the [DeepBlueRobotics organization](https://github.com/DeepBlueRobotics) with write access to at least the [DeepBlueRobotics.github.io project](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io). If you need access, contact the programming subteam lead or programming subteam lead mentor.
+Editors need to be members of the [webeditors team in the DeepBlueRobotics organization](https://github.com/orgs/DeepBlueRobotics/teams/webeditors/members). To become an editor, ask the programming subteam lead or programming subteam lead mentor to add your acccount to that organization and that team.
 
-Reviewers are mentors and they need to be members of the [DeepBlueRoboticsMentors organization](https://github.com/DeepBlueRoboticsMentors) with write access to at least the [DeepBlueRoboticsMentors.github.io project](https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io). If you are a mentor and need access, contact the programming subteam lead mentor.
+Reviewers are mentors and they need to be members of the [webeditors team in the DeepBlueRobotics organization](https://github.com/orgs/DeepBlueRobotics/teams/webeditors/members). To become a reviewer, ask the programming subteam lead mentor to add your acccount to that organization and that team.
 
-[Making changes is easy](#making-changes-online) and can be done from any modern web browser. More advanced users can also [make changes offline](#making-changes-offline) using open source tools running on a MacOS or Linux machine. [Administative tasks](#administration) like managing permissions are accomplished via GitHub. If you are curious how the site works, take a look [behind the scenes](#behind-the-scenes).
+[Making changes is easy](#making-changes-online) and can be done from any modern web browser. More advanced users can also [make changes offline](#making-changes-offline) using open source tools running on a MacOS or Linux machine. If you are curious how the site works, take a look [behind the scenes](#behind-the-scenes).
 
 # Making Changes Online
 
@@ -86,15 +85,13 @@ Although it's not strictly necessary, if you have a Mac or Linux computer and ar
  9. When you are finished making changes, commit them, pull (resolving conflicts if necessary, and push.
  10. [Request merging of your changes into the production website](#requesting-merging-of-changes-into-the-production-website).
 
-# Administration
+# Behind the Scenes
 
-## Adding and Removing Editors
+The staging and production websites, are the static [GitHub Pages](https://help.github.com/en/github/working-with-github-pages) sites associated with the [DeepBlueRobotics GitHub organization](https://github.com/DeepBlueRobotics) and the [DeepBlueRoboticsMentors GitHub organization](https://github.com/DeepBlueRoboticsMentors) respectively.
 
-## Adding and Removing Publishers
+GitHub Pages uses [Jekyll](https://jekyllrb.com/docs/) to generate those sites from corresponding repositories in those organizations. The staging repository is a fork of the production repository. The [Netlify Content Management System](https://www.netlifycms.org/) is an single page add-on that allows non-technical users to use the `/admin` page of a site to edit content in the site's repository.
 
-## Configuring a New Repository
-
-If you want to fork the repository for use as the GitHub pages site for a user or organization (note that the site's internal links won't work if you try to use it as a *project* GitHub pages site):
+If you want to fork this repository for use as the GitHub pages site for a user or different organization (note that the site's internal links won't work if you try to use it as a *project* GitHub pages site):
 
  1. Fork the https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io repository to your own account or an organization
  2. Rename the forked repository to `<user>.github.io` or `<organization>.github.io`.
@@ -111,5 +108,4 @@ If you want to fork the repository for use as the GitHub pages site for a user o
     {% comment %}Add additional elsif clauses for other GitHub users/orgs Netlify site domains above this line{% endcomment %}
   ```
 
-# Behind the Scenes
 
