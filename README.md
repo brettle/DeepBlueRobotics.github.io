@@ -100,6 +100,7 @@ If you want to fork the repository for use as the GitHub pages site for a user o
  2. Rename the forked repository to `<user>.github.io` or `<organization>.github.io`.
  3.  To make the Netlify CMS admin page work:
   1. Follow the [Creating an GitHub OAuth App](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-an-github-oauth-app) and [Creating a Netlify Site](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-a-netlify-site) parts of [these instructions](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html)
+  2. If the forked repository is for an organization, [request (or grant) organization approval for the OAuth app](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/requesting-organization-approval-for-oauth-apps).
   2. Edit `admin/config.yml` to add 
   ```
   {% elsif site.github.owner_name == "<your user or organization>" %}
