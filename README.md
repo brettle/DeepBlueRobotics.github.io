@@ -59,7 +59,17 @@ To request inclusion of your changes in the production website, [make a "pull re
 
 ## Merging Changes into the Production Website
 
-Changes should be made to the DeepBlueRobotics/DeepBlueRobotics.github.io repository, previewed at https://DeepBlueRobotics.github.io, and then a pull request should be made to this repository. If the preview is acceptable to a mentor, the pull request should be merged and the result will be live. If a change needs to be undone, the corresponding pull request can be opened and reverted to create a new pull request with undoes it. That pull request should then be merged to undo the original pull request.
+If you've been asked to merge changes into the production website:
+
+ 1. Go to https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/pulls. There should be one open pull request. (If there is more than one, work with the people who are requesting that their changes be merged to figure out which changes one to merge.) Click on the pull request.
+ 2. Confirm that the request is to merge the `master` branch of the `DeepBlueRobotics/DeepBlueRobotics.github.io` repository into the `master` branch of the `DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io` repository. If the request lists different repositories or branches, you will not be able to review it by looking at the staging site, so you should ask the requester to make the changes to the staging site first.
+ 3. Verify that the staging site, https://deepbluerobotics.github.io contains the desired corrections and is no worse than the production site, https://carlmontrobotics.org/, ideally on both a computer and a phone.
+ 4. If everything looks good, click the button to merge the pull request.
+ 5. it should only take a few seconds for your changes to show up at https://carlmontrobotics.org/. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/deployments to see how recently the last deployment occurred. 
+
+ ## Undoing Changes to the Production Website
+ 
+ If a change needs to be undone, the corresponding pull request can be opened and reverted to create a new pull request with undoes it. That pull request should then be merged to undo the original pull request.
 
 # Making Changes Offline
 
