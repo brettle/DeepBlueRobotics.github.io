@@ -1,6 +1,6 @@
 # Introduction
 
-These are instructions for maintaining the [carlmontrobotics.org](https://carlmontrobotics.org/) website. 
+These are instructions for maintaining the [carlmontrobotics.org](http://www.carlmontrobotics.org/) website. 
 
 There are three types of changes that you might want to make:
 
@@ -62,9 +62,9 @@ If you've been asked to merge changes into the production website:
 
  1. Go to https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/pulls. There should be one open pull request. (If there is more than one, work with the people who are requesting that their changes be merged to figure out which changes one to merge.) Click on the pull request.
  2. Confirm that the request is to merge the `master` branch of the `DeepBlueRobotics/DeepBlueRobotics.github.io` repository into the `master` branch of the `DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io` repository. If the request lists different repositories or branches, you will not be able to review it by looking at the staging site, so you should ask the requester to make the changes to the staging site first.
- 3. Verify that the staging site, https://deepbluerobotics.github.io contains the desired corrections and is no worse than the production site, https://carlmontrobotics.org/, ideally on both a computer and a phone.
+ 3. Verify that the staging site, https://deepbluerobotics.github.io contains the desired corrections and is no worse than the production site, http://www.carlmontrobotics.org/, ideally on both a computer and a phone.
  4. If everything looks good, return to the page containing the pull request, click the `Merge Pull Request` and then `Confirm Merge` to merge the pull request.
- 5. it should only take a few seconds for your changes to show up at https://carlmontrobotics.org/. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/deployments to see how recently the last deployment occurred. 
+ 5. it should only take a few seconds for your changes to show up at http://www.carlmontrobotics.org/. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/deployments to see how recently the last deployment occurred. 
 
  ## Undoing Changes to the Production Website
  
