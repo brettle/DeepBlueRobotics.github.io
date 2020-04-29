@@ -24,7 +24,7 @@ Reviewers are mentors and they need to be members of the [webeditors team in the
 
 # Making Changes Online
 
-The easiest way to make changes is using any modern web browser.
+The easiest way to make changes is using any modern web browser. **Note: After you make a change, you may receive an email from GitHub indicating that there was a "Page build warning" because "The CNAME `www.carlmontrobotics.org` is already taken". You can safely ignore that warning.**
 
 ## Changing Content
 
