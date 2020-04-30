@@ -16,7 +16,7 @@ backend:
   site_domain: flamboyant-brattain-ce0789.netlify.com
   {% elsif site.github.owner_name == "DeepBlueRobotics" %}
   site_domain: hopeful-roentgen-7d9a3b.netlify.com
-  {% comment %}Add additional elsif clauses for other GitHub users/orgs Netlify site domains above this line{% endcomment %}
+  {% comment %}Add additional elsif clauses for other GitHub users/orgs and their Netlify site domains above this line{% endcomment %}
   {% endif %}
 {% endif %}
 

@@ -105,7 +105,7 @@ If you want to fork this repository for use as the GitHub pages site for a user 
   ```
   above the line that reads 
   ```
-    {% comment %}Add additional elsif clauses for other GitHub users/orgs Netlify site domains above this line{% endcomment %}
+    {% comment %}Add additional elsif clauses for other GitHub users/orgs and and their Netlify site domains above this line{% endcomment %}
   ```
 
 
