@@ -7,6 +7,7 @@
 backend:
   name: git-gateway
 local_backend: true
+site_url: http://127.0.0.1:4000
 {% else %}
 backend:
   name: github
@@ -18,6 +19,7 @@ backend:
   site_domain: hopeful-roentgen-7d9a3b.netlify.com
   {% comment %}Add additional elsif clauses for other GitHub users/orgs and their Netlify site domains above this line{% endcomment %}
   {% endif %}
+site_url: https://{{site.github.project.title}}
 {% endif %}
 
 media_folder: "images"
@@ -43,6 +45,9 @@ reusable_fields:
 collections:
   - name: "pages"
     label: "Pages"
+    editor:
+      preview: false
+    preview_path: {%raw%}"{{filename}}"{%endraw%}
     files:
       - label: "Home"
         name: "index"
