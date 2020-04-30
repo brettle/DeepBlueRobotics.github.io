@@ -95,12 +95,13 @@ GitHub Pages uses [Jekyll](https://jekyllrb.com/docs/) to generate those sites f
 
 If you want to fork this repository for use as the GitHub Pages site for a user or different organization (note that the site's internal links won't work if you try to use it as a *project* GitHub Pages site):
 
- 1. Fork the https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io repository to your own account or an organization you can fork to.
- 2. Rename the forked repository to `<user>.github.io` or `<organization>.github.io`.
- 3.  To make the Netlify CMS admin page work:
-   1. Follow the [Creating an GitHub OAuth App](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-an-github-oauth-app) and [Creating a Netlify Site](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-a-netlify-site) parts of [these instructions](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html)
-   2. If the forked repository is for an organization, [request (or grant) organization approval for the OAuth app](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/requesting-organization-approval-for-oauth-apps).
-   3. Edit `admin/config.yml` to add 
+1. Fork the https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io repository to your own account or an organization you can fork to.
+2. Rename the forked repository to `<user>.github.io` or `<organization>.github.io`.
+3.  To make the Netlify CMS admin page work:
+
+  1. Follow the [Creating an GitHub OAuth App](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-an-github-oauth-app) and [Creating a Netlify Site](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-a-netlify-site) parts of [these instructions](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html)
+  2. If the forked repository is for an organization, [request (or grant) organization approval for the OAuth app](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/requesting-organization-approval-for-oauth-apps).
+  3. Edit `admin/config.yml` to add 
   ```
   {% elsif site.github.owner_name == "<your user or organization>" %}
   site_domain: <your netlify site name>.netlify.com
