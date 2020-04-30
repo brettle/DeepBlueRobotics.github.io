@@ -4,11 +4,11 @@ These are instructions for maintaining the [carlmontrobotics.org](http://www.car
 
 There are three types of changes that you might want to make:
 
- * Changes to *content* like text and images. Content changes also include changes to basic text formatting changes such as bold, italics, lists, and links, but don't include things like font or font size. **You don't need any special skills to make content changes.**
- * Changes to *layout and styling*. Layout and styling dictate where and how various bits of content is displayed on a page, including fonts, font sizes, colors, positioning, and how the page will appear on different devices or in different sized windows. To make layout and styling changes, you will need to know [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) so that the site will look attractive and work effectively across devices. You will also need a working understanding of [Jekyll](https://jekyllrb.com/docs/).
+ * Changes to *content* like text and images. Content changes also include changes to basic text formatting such as bold, italics, lists, and links, but *don't* include things like font or font size. **You don't need any special skills to make content changes.**
+ * Changes to *layout and styling*. Layout and styling dictate where and how various bits of content are displayed on a page. Layout and styling includes fonts, font sizes, colors, positioning, and how the page will appear on different devices or in different sized windows. To make layout and styling changes, you will need to know [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) so that the site will look attractive and work effectively across devices. You will also need a working understanding of [Jekyll](https://jekyllrb.com/docs/).
  * Changes to *structure*. Structure changes include changes to the types of content on a page, how the various bits of content relate to each other, and which page contains which content. Adding or deleting pages or sections of pages are examples of structure changes. To make structure changes you will need to know how to configure [NetlifyCMS](https://www.netlifycms.org/) so that content editors can continue to make changes to the content without needing any special skills.
 
-To make changes to the carlmontrobotics.org website:
+Making changes to the carlmontrobotics.org website involves the following steps:
 
  1. An editor makes the changes to the staging website, deepbluerobotics.github.io.
  2. The editor requests that the changes be merged into the production website, carlmontrobotics.org.
@@ -18,19 +18,21 @@ The editor and reviewer both need to have GitHub accounts. If you don't have one
 
 Editors need to be members of the [webeditors team in the DeepBlueRobotics organization](https://github.com/orgs/DeepBlueRobotics/teams/webeditors/members). To become an editor, ask the programming subteam lead or programming subteam lead mentor to add your acccount to that organization and that team.
 
-Reviewers are mentors and they need to be members of the [webeditors team in the DeepBlueRobotics organization](https://github.com/orgs/DeepBlueRobotics/teams/webeditors/members). To become a reviewer, ask the programming subteam lead mentor to add your acccount to that organization and that team.
+Reviewers are mentors and they need to be members of the [webreviewers team in the DeepBlueRoboticsMentors organization](https://github.com/orgs/DeepBlueRoboticsMentors/teams/webreviewers/members). To become a reviewer, ask the programming subteam lead mentor to add your acccount to that organization and that team.
 
 [Making changes is easy](#making-changes-online) and can be done from any modern web browser. More advanced users can also [make changes offline](#making-changes-offline) using open source tools running on a MacOS or Linux machine. If you are curious how the site works, take a look [behind the scenes](#behind-the-scenes).
 
 # Making Changes Online
 
-The easiest way to make changes is using any modern web browser. **Note: After you make a change, you may receive an email from GitHub indicating that there was a "Page build warning" because "The CNAME `www.carlmontrobotics.org` is already taken". You can safely ignore that warning.**
+The easiest way to make changes is using any modern web browser. 
+
+**Note: After you make a change, you may receive an email from GitHub indicating that there was a "Page build warning" because "The CNAME `www.carlmontrobotics.org` is already taken". You can safely ignore that warning.**
 
 ## Changing Content
 
 To change content:
- 1. Go to https://deepbluerobotics.github.io/admin. If prompted, sign in to GitHub and give the NetlifyCMS application permission to write to the DeepBlueRobotics/DeepBlueRobotics.github.io repository.
- 2. Select the page you want to edit. The various bits of content on that page will be displayed in a way that allow you to edit them.
+ 1. Go to https://deepbluerobotics.github.io/admin. If prompted, sign in to GitHub and give the NetlifyCMS application permission to write to the "DeepBlueRobotics.github.io" repository in the DeepBlueRobotics organization.
+ 2. Select the page you want to edit. The various bits of content on that page will be displayed in a way that allows you to edit them.
  3. Make the changes you want.
  4. Click `Publish` in the upper right corner and select `Publish Now`. It should only take a few seconds for your changes to show up at https://deepbluerobotics.github.io. If you aren't sure whether the publication process has finished yet, you can check https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/deployments to see how recently the last deployment occurred.
  5. Repeat steps 2 through 4 for each page that has content you want to change.
@@ -42,33 +44,33 @@ To change layout and styling you will need to know [HTML](https://developer.mozi
 
 Once you commit a change, it should only take a few seconds for your changes to show up at https://deepbluerobotics.github.io. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/deployments to see how recently the last deployment occurred. 
 
-Once you are happy with how your changes appear on a variety of devices/browsers, follow [the instructions for requesting that your changes be merged into www.carlmontrobotics.org](#requesting-merging-of-changes-into-the-production-website).
+Once you are happy with how your changes appear on a variety of devices/browsers and with how the admin interface works, follow [the instructions for requesting that your changes be merged into www.carlmontrobotics.org](#requesting-merging-of-changes-into-the-production-website).
 
 ## Changing Structure
 
-To change the structure of the site or it's content you will need to know how to configure [NetlifyCMS](https://www.netlifycms.org/) so that content editors can continue to make changes to the content without needing any special skills. You can make structure changes by editing [admin/config.yaml](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/admin/config.yaml) and the site's source files such that the fields in `admin/config.yaml` specify appropriate widgets for editing the various parts of the site's source files. For detailed documentation, see [the NetlifyCMS docs](https://www.netlifycms.org/docs/), especially the docs concerning [options for configuring  `collections`](https://www.netlifycms.org/docs/configuration-options/#collections).
+To change the structure of the site or it's content you will need to know how to configure [NetlifyCMS](https://www.netlifycms.org/) so that content editors can continue to make changes to the content without needing any special skills. You can make structure changes by editing [`admin/config.yml`](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/admin/config.yml) and the site's source files such that the fields in `admin/config.yml` specify appropriate widgets for editing the various parts of the site's source files. For detailed documentation, see [the NetlifyCMS docs](https://www.netlifycms.org/docs/), especially the docs concerning [options for configuring `collections`](https://www.netlifycms.org/docs/configuration-options/#collections).
 
 Once you commit a change, it should only take a few seconds for your changes to show up at https://deepbluerobotics.github.io. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/deployments to see how recently the last deployment occurred. 
 
-Once you are happy with how your changes appear on a variety of devices/browsers, follow [the instructions for requesting that your changes be merged into www.carlmontrobotics.org](#requesting-merging-of-changes-into-the-production-website).
+Once you are happy with how your changes to the site and `admin/config.yml` appear and function on a variety of devices/browsers, follow [the instructions for requesting that your changes be merged into www.carlmontrobotics.org](#requesting-merging-of-changes-into-the-production-website).
 
 ## Requesting Merging of Changes into the Production Website
 
-To request inclusion of your changes in the production website, [make a "pull request"](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/pull/new/master) and then let a reviewer know that you have done so.
+To request inclusion of your changes in the production website, [create a "pull request"](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/pull/new/master) and then let a reviewer know that you have done so.
 
 ## Merging Changes into the Production Website
 
 If you've been asked to merge changes into the production website:
 
- 1. Go to https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/pulls. There should be one open pull request. (If there is more than one, work with the people who are requesting that their changes be merged to figure out which changes one to merge.) Click on the pull request.
+ 1. Go to https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/pulls. There should be one open pull request. (If there is more than one, work with the people who are requesting that their changes be merged to figure out which one to merge.) Click on the pull request.
  2. Confirm that the request is to merge the `master` branch of the `DeepBlueRobotics/DeepBlueRobotics.github.io` repository into the `master` branch of the `DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io` repository. If the request lists different repositories or branches, you will not be able to review it by looking at the staging site, so you should ask the requester to make the changes to the staging site first.
- 3. Verify that the staging site, https://deepbluerobotics.github.io contains the desired corrections and is no worse than the production site, http://www.carlmontrobotics.org/, ideally on both a computer and a phone.
- 4. If everything looks good, return to the page containing the pull request, click the `Merge Pull Request` and then `Confirm Merge` to merge the pull request.
- 5. it should only take a few seconds for your changes to show up at http://www.carlmontrobotics.org/. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/deployments to see how recently the last deployment occurred. 
+ 3. Verify that the staging site, https://deepbluerobotics.github.io, contains the desired corrections and is no worse than the production site, http://www.carlmontrobotics.org/, ideally on both a computer and a phone.
+ 4. If everything looks good, return to the page containing the pull request, click `Merge Pull Request` and then `Confirm Merge` to merge the pull request.
+ 5. It should only take a few seconds for your changes to show up at http://www.carlmontrobotics.org/. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/deployments to see how recently the last deployment occurred. 
 
  ## Undoing Changes to the Production Website
  
- If a change needs to be undone, the corresponding pull request can be opened and reverted to create a new pull request with undoes it. That pull request should then be merged to undo the original pull request.
+ If a change needs to be undone, the corresponding pull request can be opened and reverted to create a new pull request which undoes it. That pull request should then be merged to undo the changes.
 
 # Making Changes Offline
 
@@ -80,9 +82,9 @@ Although it's not strictly necessary, if you have a Mac or Linux computer and ar
  4. Run `bundle install` to install any missing gems.
  5. Install [Node.js](https://nodejs.org/en/) and [npx](https://www.npmjs.com/package/npx), if they are not already installed.
  6. Run `npx netlify-cms-proxy-server &` to run a dummy Netlify CMS identity server in the background.
- 7. Run `bundle exec jekyll serve --safe` to run Jekyll which will generate a static site at http://127.0.0.1:4000 and update it whenever one of the source files changes.
+ 7. Run `bundle exec jekyll serve --safe` to use Jekyll to generate a static site at http://127.0.0.1:4000 and update it whenever one of the source files changes.
  8. View the local copy of the site at http://127.0.0.1:4000, and make changes using the admin interface at http://127.0.0.1:4000/admin, or using a text editor.
- 9. When you are finished making changes, commit them, pull (resolving conflicts if necessary, and push.
+ 9. When you are finished making changes, commit them, pull (resolving conflicts as needed), and push.
  10. [Request merging of your changes into the production website](#requesting-merging-of-changes-into-the-production-website).
 
 # Behind the Scenes
@@ -91,14 +93,14 @@ The staging and production websites, are the static [GitHub Pages](https://help.
 
 GitHub Pages uses [Jekyll](https://jekyllrb.com/docs/) to generate those sites from corresponding repositories in those organizations. The staging repository is a fork of the production repository. The [Netlify Content Management System](https://www.netlifycms.org/) is an single page add-on that allows non-technical users to use the `/admin` page of a site to edit content in the site's repository.
 
-If you want to fork this repository for use as the GitHub pages site for a user or different organization (note that the site's internal links won't work if you try to use it as a *project* GitHub pages site):
+If you want to fork this repository for use as the GitHub Pages site for a user or different organization (note that the site's internal links won't work if you try to use it as a *project* GitHub Pages site):
 
- 1. Fork the https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io repository to your own account or an organization
+ 1. Fork the https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io repository to your own account or an organization you can fork to.
  2. Rename the forked repository to `<user>.github.io` or `<organization>.github.io`.
  3.  To make the Netlify CMS admin page work:
-  1. Follow the [Creating an GitHub OAuth App](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-an-github-oauth-app) and [Creating a Netlify Site](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-a-netlify-site) parts of [these instructions](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html)
-  2. If the forked repository is for an organization, [request (or grant) organization approval for the OAuth app](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/requesting-organization-approval-for-oauth-apps).
-  2. Edit `admin/config.yml` to add 
+   1. Follow the [Creating an GitHub OAuth App](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-an-github-oauth-app) and [Creating a Netlify Site](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html#creating-a-netlify-site) parts of [these instructions](https://cnly.github.io/2018/04/14/just-3-steps-adding-netlify-cms-to-existing-github-pages-site-within-10-minutes.html)
+   2. If the forked repository is for an organization, [request (or grant) organization approval for the OAuth app](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/requesting-organization-approval-for-oauth-apps).
+   3. Edit `admin/config.yml` to add 
   ```
   {% elsif site.github.owner_name == "<your user or organization>" %}
   site_domain: <your netlify site name>.netlify.com
