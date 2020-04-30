@@ -19,7 +19,7 @@ backend:
   site_domain: hopeful-roentgen-7d9a3b.netlify.com
   {% comment %}Add additional elsif clauses for other GitHub users/orgs and their Netlify site domains above this line{% endcomment %}
   {% endif %}
-site_url: https://{{site.github.project.title}}
+site_url: https://{{site.github.project_title}}
 {% endif %}
 
 media_folder: "images"
