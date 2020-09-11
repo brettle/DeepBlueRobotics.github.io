@@ -16,9 +16,15 @@ Making changes to the carlmontrobotics.org website involves the following steps:
 
 The editor and reviewer both need to have GitHub accounts. If you don't have one, just [sign up](https://github.com/join). 
 
-Editors need to be members of the "webeditors" team in the DeepBlueRobotics organization. If you get a 404 error or aren't listed when you follow [this link](https://github.com/orgs/DeepBlueRobotics/teams/webeditors/members), then to become an editor ask the programming subteam lead or programming subteam lead mentor to use that link to add your acccount to that organization and that team.
+Editors need to be members of the "webeditors" team in the DeepBlueRobotics organization. If you get a 404 error or aren't listed when you follow [this link](https://github.com/orgs/DeepBlueRobotics/teams/webeditors/members), then to become an editor:
+ 1. Send a message to the programming subteam lead or programming subteam lead mentor saying something like, "Please invite my GitHub account (*your_username*) to the DeepBlueRobotics organization using the link https://github.com/orgs/DeepBlueRobotics/people".
+ 2. Once you've been invited, you should get an invitation by email. Accept that invitation.
+ 3. Send a message to the programming subteam lead or programming subteam lead mentor saying something like, "Please add me to the `webeditors` team using the link https://github.com/orgs/DeepBlueRobotics/teams/webeditors/members".
 
-Reviewers are mentors and they need to be members of the "webreviewers" team in the DeepBlueRoboticsMentors organization. If you get a 404 error or aren't listed when you follow [this link](https://github.com/orgs/DeepBlueRoboticsMentors/teams/webreviewers/members), then to become a reviewer ask the programming subteam lead or programming subteam lead mentor to use that link to add your acccount to that organization and that team.
+Reviewers are **mentors** and they need to be members of the "webreviewers" team in the DeepBlueRoboticsMentors organization. If you get a 404 error or aren't listed when you follow [this link](https://github.com/orgs/DeepBlueRoboticsMentors/teams/webreviewers/members), then to become a reviewer
+ 1. Send a message to the programming subteam lead or programming subteam lead mentor saying something like, "Please invite my GitHub account (*your_username*) to the DeepBlueRobotics organization using the link https://github.com/orgs/DeepBlueRobotics/people".
+ 2. Once you've been invited, you should get an invitation by email. Accept that invitation.
+ 3. Send a message to the programming subteam lead or programming subteam lead mentor saying something like, "Please add me to the `webreviewers` team using the link https://github.com/orgs/DeepBlueRobotics/teams/webreviewers/members".
 
 [Making changes is easy](#making-changes-online) and can be done from any modern web browser. More advanced users can also [make changes offline](#making-changes-offline) using open source tools running on a MacOS or Linux machine. If you are curious how the site works, take a look [behind the scenes](#behind-the-scenes).
 
