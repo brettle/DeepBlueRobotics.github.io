@@ -109,7 +109,15 @@ permalink: /sponsors
 reef_sharks:
   title: Reef Sharks
   amount: $250-$499
-  sponsors: []
+  sponsors:
+    - title: SYNOPSYS
+      content: "**Synopsys is at the forefront of Smart Everything with the world’s
+        most advanced technologies for chip design, verification, IP
+        integration, and software security and quality testing. The company
+        helps customers innovate from silicon to software so they can bring
+        Smart Everything to life.**"
+      image: /images/synopsys.png
+      href: https://www.synopsys.com/
 ---
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{page.corporate.image}}" data-position="center center" data-speed="0.7"></div>
 
