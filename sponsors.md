@@ -60,15 +60,18 @@ tiger_sharks:
         to high school robotic teams both in the Bay Area and other parts of the
         US. Over the years, Intuitive has inspired hundreds of students to
         engage in STEM activities.**"
+    - title: NVIDIA
+      image: /images/Nvidia.png
+      href: http://www.nvidia.com/
+      content: "**NVIDIA is the inventor of the GPU, which creates interactive
+        graphics on laptops, workstations, mobile devices, notebooks, PCs, and
+        more. NVIDIA'S Invention of the GPU. sparked the growth of the PC gaming
+        market, redefined modern computer graphics, and revolutionized parallel
+        computing.**"
 hammerhead_sharks:
   title: Hammerhead Sharks
   amount: $500-$749
   sponsors:
-    - title: Nvidia
-      image: images/Nvidia.png
-      href: http://www.nvidia.com/
-      content: "Learn more about Nvidia at [www.nvidia.com](http://www.nvidia.com/){:
-        target='_blank'}."
     - title: Custom Metal Manufacturing
       image: /images/custommetalmanufacturing.jpg
       content: "**Custom Metal Manufacturing Company offers complete steel fabrication
