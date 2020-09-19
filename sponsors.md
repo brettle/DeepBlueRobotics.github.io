@@ -68,6 +68,12 @@ tiger_sharks:
         more. NVIDIA'S Invention of the GPU. sparked the growth of the PC gaming
         market, redefined modern computer graphics, and revolutionized parallel
         computing.**"
+    - href: http://villagehostpizza.com/
+      title: Village Host Pizza
+      image: /images/village-host-pizza.jpg
+      content: "**Village Host Pizza is a pizzeria dedicated to hosting gatherings
+        among friends and family for any occasion. They support the town of
+        Belmont through donations to schools, as well as local organizations.**"
 hammerhead_sharks:
   title: Hammerhead Sharks
   amount: $500-$749
