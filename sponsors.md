@@ -87,6 +87,13 @@ hammerhead_sharks:
         [personal computers](https://en.wikipedia.org/wiki/Personal_computer),
         and related services. Microsoft's mission and values are to help people
         and businesses throughout the world realize their full potential.**"
+    - title: SolidProfessor
+      image: /images/solid-professor.png
+      href: www.solidprofessor.com
+      content: "**SolidProfessor is an online learning platform for engineers, design
+        teams, and instructors at K12 and post-secondary schools. With a
+        SolidProfessor offers on-demand SOLIDWORKS courses and lessons in CAD,
+        CAM, BIM, engineering methods, and more.**"
 sponsor_us:
   content: Building a robot is expensive. You can help too!
   link_text: SPONSOR US!
