@@ -124,6 +124,15 @@ reef_sharks:
         Smart Everything to life.**"
       image: /images/synopsys.png
       href: https://www.synopsys.com/
+    - content: "**Applied Process is a group of commercial heat treaters that
+        specialise in the Austempering process. They help customers replace one
+        material process combination with a better, faster, cheaper one ever
+        since 1962. Not only are they cost effective, but their iron and steel
+        metallurgical bench strength is unmatched in the industry of
+        ironworks.**"
+      title: Applied Process
+      href: https://www.appliedprocess.com/
+      image: /images/ap-logo.png
 ---
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{page.corporate.image}}" data-position="center center" data-speed="0.7"></div>
 
