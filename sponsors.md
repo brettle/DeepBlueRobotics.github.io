@@ -69,23 +69,21 @@ hammerhead_sharks:
       href: http://www.nvidia.com/
       content: "Learn more about Nvidia at [www.nvidia.com](http://www.nvidia.com/){:
         target='_blank'}."
-    - title: Precision Powder Coating
-      image: images/PrecisionPowderCoating.svg
-      href: https://www.google.com/maps/place/248+Harbor+Blvd,+Belmont,+CA+94002/@37.5223644,-122.2705018,17z/data=!3m1!4b1!4m5!3m4!1s0x808f9f4d8044b97d:0x42db9f5e3206a0cc!8m2!3d37.5223644!4d-122.2683131
-      content: "Precision Powder Coating has been in business for 20 years and
-        provides Powder Coating, Sandblasting and Glass Bead Blasting services.
-        Precision Powder Coating is located at [248 Harbor Boulevard, Belmont,
-        CA
-        94002](https://www.google.com/maps/place/248+Harbor+Blvd,+Belmont,+CA+9\
-        4002/@37.5223644,-122.2705018,17z/data=!3m1!4b1!4m5!3m4!1s0x808f9f4d804\
-        4b97d:0x42db9f5e3206a0cc!8m2!3d37.5223644!4d-122.2683131){:
-        target='_blank'}."
     - title: Custom Metal Manufacturing
       image: /images/custommetalmanufacturing.jpg
       content: "**Custom Metal Manufacturing Company offers complete steel fabrication
         and welding services with the mission of helping customers bring their
         ideas to life at a fair price.**"
       href: https://www.facebook.com/custommetalmfg/
+    - title: Microsoft
+      image: /images/microsoft.png
+      href: https://www.microsoft.com/en-us/
+      content: "**Microsoft develops, manufactures, licenses, supports, and sells
+        [computer software](https://en.wikipedia.org/wiki/Software), [consumer
+        electronics](https://en.wikipedia.org/wiki/Consumer_electronics),
+        [personal computers](https://en.wikipedia.org/wiki/Personal_computer),
+        and related services. Microsoft's mission and values are to help people
+        and businesses throughout the world realize their full potential.**"
 sponsor_us:
   content: Building a robot is expensive. You can help too!
   link_text: SPONSOR US!
