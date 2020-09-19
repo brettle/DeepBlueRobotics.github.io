@@ -37,18 +37,6 @@ tiger_sharks:
   title: Tiger Sharks
   amount: $750-$2499
   sponsors:
-    - title: Intuitive
-      image: images/intuitive-logo-black-1060874-lo-res.png
-      href: http://intuitive.com/
-      content: "[Intuitive](http://intuitive.com/){: target='_blank'} was founded in
-        1995 to create innovative, robotic-assisted systems that help empower
-        doctors and hospitals to make surgery less invasive than an open
-        approach. Since da Vinci® became one of the first robotic-assisted
-        systems cleared by the FDA for general laparoscopic surgery, it’s taken
-        robotic-assisted surgery from &quot;science fiction&quot; to reality.
-        Working with doctors and hospitals, they're continuing to develop new,
-        minimally invasive surgical platforms and future diagnostic tools to
-        help solve complex healthcare challenges around the world."
     - title: Carlmont PTSA
       image: images/CarlmontPTSA.png
       href: http://carlmonths.org/?id=253
@@ -58,6 +46,13 @@ tiger_sharks:
         of children and youth. Learn more at
         [www.carlmonths.org/ptsa](http://carlmonths.org/?id=253){:
         target='_blank'}."
+    - title: Intuitive Foundation
+      image: /images/intuitive.jpg
+      href: http://www.intuitive-foundation.org/
+      content: "**The Intuitive Foundation has partnered with FIRST, awarding grants
+        to high school robotic teams both in the Bay Area and other parts of the
+        US. Over the years, Intuitive has inspired hundreds of students to
+        engage in STEM activities.**"
 hammerhead_sharks:
   title: Hammerhead Sharks
   amount: $500-$749
