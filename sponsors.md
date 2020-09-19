@@ -94,6 +94,12 @@ hammerhead_sharks:
         teams, and instructors at K12 and post-secondary schools. With a
         SolidProfessor offers on-demand SOLIDWORKS courses and lessons in CAD,
         CAM, BIM, engineering methods, and more.**"
+    - title: SolidWorks
+      image: /images/solidworks.png
+      href: https://www.solidworks.com/
+      content: "**SOLIDWORKS Corp. develops and markets 3D CAD design software,
+        analysis software, and product data management software.SolidWorks, is
+        one of the largest 3D software companies in the world.**"
 sponsor_us:
   content: Building a robot is expensive. You can help too!
   link_text: SPONSOR US!
