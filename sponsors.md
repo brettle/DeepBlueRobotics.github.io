@@ -23,11 +23,6 @@ great_white:
         multi-company network -- developing everything from Chromebooks to
         self-driving cars. Their work continues to improve the lives of people
         around the world every day.
-    - title: Pentair
-      image: images/Pentair.png
-      href: http://www.pentairthermal.com/index.aspx
-      content: Pentair Thermal Management is a thermal engineering company dedicated
-        to innovation and customer satisfaction.
     - title: Sequoia Union High School District
       image: images/SUHSD.png
       href: http://www.seq.org/
