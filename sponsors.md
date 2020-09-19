@@ -33,6 +33,13 @@ great_white:
       href: http://www.seq.org/
       content: The Sequoia Union High School District annually serves more than 8900
         9th to 12th grade students, including Carlmont High School.
+    - title: KLA Foundation
+      image: /images/kla-foundation.jpg
+      href: https://www.kla.foundation/
+      content: "**The KLA Foundation aims to support and benefit the local and
+        international communities in which KLA Corporation employees live and
+        work. The Foundation is dedicated to three main Pillars of Focus:
+        Education (emphasis on STEM), Wellness, and Community Enrichment.**"
 tiger_sharks:
   title: Tiger Sharks
   amount: $750-$2499
