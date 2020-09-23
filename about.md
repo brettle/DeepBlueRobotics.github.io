@@ -1,7 +1,7 @@
 ---
 who_we_are:
   title: Who We Are
-  image: images/Team2017.jpg
+  image: /images/DSCF2291.JPG
   content: >
     FIRST Robotics Competition (FRC) Team 199, Deep Blue Robotics, is a
     third-year team established in August of 2015 by students at Carlmont High
@@ -71,7 +71,7 @@ mentors:
     role: Mentor
 history:
   title: History
-  image: images/teamhuddle.jpg
+  image: /images/random-image-of-team.jpg
   content: >
     Deep Blue Robotics has grown enormously as an enterprise and as a community
     since our foundation in 2015. Based at Carlmont High School after breaking
