@@ -8,7 +8,7 @@ actions:
   - content: Promoting STEM and Community Service. Meet our team!
     link_text: OUR STORY
     link_href: /about
-    image: images/Team2018.JPG
+    image: /images/team-photo-2019-space.jpg
   - content: Become an official sponsor!
     link_text: SPONSOR US
     link_href: /sponsor-us
