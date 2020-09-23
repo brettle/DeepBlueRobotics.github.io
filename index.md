@@ -12,7 +12,7 @@ actions:
   - content: Become an official sponsor!
     link_text: SPONSOR US
     link_href: /sponsor-us
-    image: images/DSC02293.JPG
+    image: /images/sponsor-us.jpg
   - content: Shop at our online store!
     link_text: SHOP
     link_href: /shop
