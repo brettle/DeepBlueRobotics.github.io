@@ -31,76 +31,72 @@ great_white:
     - title: KLA Foundation
       image: /images/kla-foundation.jpg
       href: https://www.kla.foundation/
-      content: "**The KLA Foundation aims to support and benefit the local and
+      content: "The KLA Foundation aims to support and benefit the local and
         international communities in which KLA Corporation employees live and
         work. The Foundation is dedicated to three main Pillars of Focus:
-        Education (emphasis on STEM), Wellness, and Community Enrichment.**"
+        Education (emphasis on STEM), Wellness, and Community Enrichment."
 tiger_sharks:
   title: Tiger Sharks
   amount: $750-$2499
   sponsors:
     - title: Carlmont PTSA
       image: images/CarlmontPTSA.png
-      href: http://carlmonths.org/?id=253
-      content: "The mission of the Carlmont PTSA is to advocate for our students and
+      href: "[www.carlmonths.org/ptsa](http://carlmonths.org/?id=253)"
+      content: The mission of the Carlmont PTSA is to advocate for our students and
         families and to bring a closer relationship between the home and school
         so that parents and teachers may work collaboratively in the education
-        of children and youth. Learn more at
-        [www.carlmonths.org/ptsa](http://carlmonths.org/?id=253){:
-        target='_blank'}."
+        of children and youth.
     - title: Intuitive Foundation
       image: /images/intuitive.jpg
       href: http://www.intuitive-foundation.org/
-      content: "**The Intuitive Foundation has partnered with FIRST, awarding grants
-        to high school robotic teams both in the Bay Area and other parts of the
+      content: The Intuitive Foundation has partnered with FIRST, awarding grants to
+        high school robotic teams both in the Bay Area and other parts of the
         US. Over the years, Intuitive has inspired hundreds of students to
-        engage in STEM activities.**"
+        engage in STEM activities.
     - title: NVIDIA
       image: /images/Nvidia.png
       href: http://www.nvidia.com/
-      content: "**NVIDIA is the inventor of the GPU, which creates interactive
-        graphics on laptops, workstations, mobile devices, notebooks, PCs, and
-        more. NVIDIA'S Invention of the GPU. sparked the growth of the PC gaming
+      content: NVIDIA is the inventor of the GPU, which creates interactive graphics
+        on laptops, workstations, mobile devices, notebooks, PCs, and more.
+        NVIDIA'S Invention of the GPU. sparked the growth of the PC gaming
         market, redefined modern computer graphics, and revolutionized parallel
-        computing.**"
+        computing.
     - href: http://villagehostpizza.com/
       title: Village Host Pizza
       image: /images/village-host-pizza.jpg
-      content: "**Village Host Pizza is a pizzeria dedicated to hosting gatherings
-        among friends and family for any occasion. They support the town of
-        Belmont through donations to schools, as well as local organizations.**"
+      content: Village Host Pizza is a pizzeria dedicated to hosting gatherings among
+        friends and family for any occasion. They support the town of Belmont
+        through donations to schools, as well as local organizations.
 hammerhead_sharks:
   title: Hammerhead Sharks
   amount: $500-$749
   sponsors:
     - title: Custom Metal Manufacturing
       image: /images/custommetalmanufacturing.jpg
-      content: "**Custom Metal Manufacturing Company offers complete steel fabrication
+      content: Custom Metal Manufacturing Company offers complete steel fabrication
         and welding services with the mission of helping customers bring their
-        ideas to life at a fair price.**"
+        ideas to life at a fair price.
       href: https://www.facebook.com/custommetalmfg/
     - title: Microsoft
       image: /images/microsoft.png
       href: https://www.microsoft.com/en-us/
-      content: "**Microsoft develops, manufactures, licenses, supports, and sells
-        [computer software](https://en.wikipedia.org/wiki/Software), [consumer
-        electronics](https://en.wikipedia.org/wiki/Consumer_electronics),
-        [personal computers](https://en.wikipedia.org/wiki/Personal_computer),
-        and related services. Microsoft's mission and values are to help people
-        and businesses throughout the world realize their full potential.**"
-    - title: SolidProfessor
-      image: /images/solid-professor.png
-      href: www.solidprofessor.com
-      content: "**SolidProfessor is an online learning platform for engineers, design
-        teams, and instructors at K12 and post-secondary schools. With a
-        SolidProfessor offers on-demand SOLIDWORKS courses and lessons in CAD,
-        CAM, BIM, engineering methods, and more.**"
+      content: Microsoft develops, manufactures, licenses, supports, and sells
+        computer software, consumer electronics, personal computers, and related
+        services. Microsoft's mission and values are to help people and
+        businesses throughout the world realize their full potential.
     - title: SolidWorks
       image: /images/solidworks.png
       href: https://www.solidworks.com/
-      content: "**SOLIDWORKS Corp. develops and markets 3D CAD design software,
-        analysis software, and product data management software.SolidWorks, is
-        one of the largest 3D software companies in the world.**"
+      content: SOLIDWORKS Corp. develops and markets 3D CAD design software, analysis
+        software, and product data management software.SolidWorks, is one of the
+        largest 3D software companies in the world.
+    - title: SolidProfessor
+      image: /images/solid-professor.png
+      href: www.solidprofessor.com
+      content: SolidProfessor is an online learning platform for engineers, design
+        teams, and instructors at K12 and post-secondary schools. With a
+        SolidProfessor offers on-demand SOLIDWORKS courses and lessons in CAD,
+        CAM, BIM, engineering methods, and more.
 sponsor_us:
   content: Building a robot is expensive. You can help too!
   link_text: SPONSOR US!
@@ -112,22 +108,24 @@ reef_sharks:
   amount: $250-$499
   sponsors:
     - title: SYNOPSYS
-      content: "**Synopsys is at the forefront of Smart Everything with the world’s
-        most advanced technologies for chip design, verification, IP
-        integration, and software security and quality testing. The company
-        helps customers innovate from silicon to software so they can bring
-        Smart Everything to life.**"
+      content: Synopsys is at the forefront of Smart Everything with the world’s most
+        advanced technologies for chip design, verification, IP integration, and
+        software security and quality testing. The company helps customers
+        innovate from silicon to software so they can bring Smart Everything to
+        life.
       image: /images/synopsys.png
       href: https://www.synopsys.com/
-    - content: "**Applied Process is a group of commercial heat treaters that
-        specialise in the Austempering process. They help customers replace one
-        material process combination with a better, faster, cheaper one ever
-        since 1962. Not only are they cost effective, but their iron and steel
-        metallurgical bench strength is unmatched in the industry of
-        ironworks.**"
-      title: Applied Process
-      href: https://www.appliedprocess.com/
-      image: /images/ap-logo.png
+    - content: Applied Process Equipment is a machining shop located at 2620 Bay Rd,
+        Redwood City, CA 94063
+      title: Applied Process Equipment
+      href: https://www.yelp.com/biz/applied-process-equipment-company-redwood-city
+      image: /images/AppliedProcessEquipment.svg
+    - title: FastSigns
+      image: /images/logo20150114-29098-q5bz06.png
+      href: https://www.fastsigns.com/san-francisco-ca/395-redwood-city
+      content: Fast Signs provides visual communication solutions including sign and
+        graphic consultation and design, production, delivery and installation
+        services.
 ---
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{page.corporate.image}}" data-position="center center" data-speed="0.7"></div>
 
