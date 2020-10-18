@@ -63,15 +63,17 @@ Once you are happy with how your changes to the site and `admin/config.yml` appe
 
 To request inclusion of your changes in the production website, [create a "pull request"](https://github.com/DeepBlueRobotics/DeepBlueRobotics.github.io/pull/new/master) and then let a reviewer know that you have done so.
 
-## Merging Changes into the Production Website
+## Reviewing and Merging Changes into the Production Website
 
 If you've been asked to merge changes into the production website:
 
- 1. Go to https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/pulls. There should be one open pull request. (If there is more than one, work with the people who are requesting that their changes be merged to figure out which one to merge.) Click on the pull request.
- 2. Confirm that the request is to merge "commits into `DeepBlueRoboticsMentors:master from DeepBlueRobotics:master`". If the request is to merge commits from *someplace else*, you will not be able to review it by looking at the staging site, and you should ask the requester to make the changes to the staging site first.
- 3. View the staging site, https://deepbluerobotics.github.io, and verify that it contains the desired corrections and is no worse than the production site, http://www.carlmontrobotics.org/, ideally on both a computer and a phone.
- 4. If everything looks good, return to the page containing the pull request, click `Merge Pull Request` and then `Confirm Merge` to merge the pull request.
- 5. It should only take a few seconds for your changes to show up at http://www.carlmontrobotics.org/. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/deployments to see how recently the last deployment occurred. 
+ 1. Right click on https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/pulls and select "Open in new window" to see a list of requests for changes to be merged into the production website (i.e. "pull requests"). There should be only one open pull request in the list. (If there is more than one, work with the people who are requesting that their changes be merged to figure out which one to merge.) 
+ 2. Click on the one pull request that is listed.
+ 3. Confirm that the request is to merge "commits into `DeepBlueRobotics*Mentors*:master from DeepBlueRobotics:master`". If the request is to merge commits from *someplace else*, you will not be able to review it by looking at the staging site, and you should ask the requester to make the changes to the staging site first.
+ 4. View the staging site, https://deepbluerobotics.github.io (right click and open in a new window), and verify that it contains the desired corrections and is no worse than the production site, http://www.carlmontrobotics.org/, ideally on both a computer and a phone. 
+ 5. If you have any comments, you can add them at the bottom of the pull request. Be sure to click Preview above the comment box and review your comment before submitting it.
+ 6. When you are ready to merge the changes, return to the page containing the pull request, click `Merge Pull Request` and then `Confirm Merge` to merge the pull request.
+ 7. It should only take a few seconds for your changes to show up at http://www.carlmontrobotics.org/. If you aren't sure whether the site has been regenerated yet, you can check https://github.com/DeepBlueRoboticsMentors/DeepBlueRoboticsMentors.github.io/deployments to see how recently the last deployment occurred. 
 
  ## Undoing Changes to the Production Website
  
