@@ -2,15 +2,16 @@
 who_we_are:
   title: Who We Are
   image: /images/DSCF2291.JPG
-  content: >
-    FIRST Robotics Competition (FRC) Team 199, Deep Blue Robotics, is a
-    third-year team established in August of 2015 by students at Carlmont High
-    School to make STEM and business education accessible for Carlmont students
-    through the avenue of FIRST. Deep
-
-    Blue Robotics participates in FRC, the FIRST-organized robotics competition. Each year, we are handed a challenge from FIRST and have six weeks to build a robot to overcome that challenge. To learn more about FIRST and FRC, visit the FIRST website at
-
-    [firstinspires.org](http://firstinspires.org){:target="_blank"}.
+  content: >-
+    Established in August of 2015, FIRST Robotics Competition (FRC) Team 199,
+    Deep Blue Robotics, gives students the opportunity to learn first-hand about
+    essential technical and business skills, inspiring them to reach out into a
+    world of opportunities for innovation and entrepreneurship. As members of
+    the team we participate in an annual competition put on by the FIRST
+    organization ([firstinspires.org](http://firstinspires.org/)). FIRST (For
+    Inspiration & Recognition of Science & Technology) organizes several
+    different competitions targeted at different grade ranges. We compete in the
+    FIRST Robotics Competition (FRC), as Team 199, Deep Blue Robotics.
 
 
     Team 199 consists of Carlmont students, invaluable mentors, and supportive parents. Carlmont also has a Robotics Engineering class.
