@@ -64,9 +64,10 @@ tiger_sharks:
     - href: http://villagehostpizza.com/
       title: Village Host Pizza
       image: /images/village-host-pizza.jpg
-      content: Village Host Pizza is a pizzeria dedicated to hosting gatherings among
-        friends and family for any occasion. They support the town of Belmont
-        through donations to schools, as well as local organizations.
+      content: Village Host Pizza, located at 1017 Alameda de las Pulgas, Belmont, CA,
+        is a pizzeria dedicated to hosting gatherings among friends and family
+        for any occasion. They support the town of Belmont through donations to
+        schools, as well as local organizations.
 hammerhead_sharks:
   title: Hammerhead Sharks
   amount: $500-$749
@@ -88,13 +89,13 @@ hammerhead_sharks:
       image: /images/solidworks.png
       href: https://www.solidworks.com/
       content: SOLIDWORKS Corp. develops and markets 3D CAD design software, analysis
-        software, and product data management software.SolidWorks, is one of the
-        largest 3D software companies in the world.
+        software, and product data management software. SolidWorks, is one of
+        the largest 3D software companies in the world.
     - title: SolidProfessor
       image: /images/solid-professor.png
       href: www.solidprofessor.com
       content: SolidProfessor is an online learning platform for engineers, design
-        teams, and instructors at K12 and post-secondary schools. With a
+        teams, and instructors at K-12 and post-secondary schools. With a
         SolidProfessor offers on-demand SOLIDWORKS courses and lessons in CAD,
         CAM, BIM, engineering methods, and more.
 sponsor_us:
