@@ -100,8 +100,14 @@ our_mentors:
       role: Lead Business Mentor
     - name: Chris Moropoulo
       role: Mentor
+    - name: Dan Deasy
+      role: " Staff Chaperone"
+    - name: " Danielle Chamberlin"
+      role: " Chaperone"
     - name: Dean Brettle
       role: Coach, Lead Sensing & Actuation Mentor
+    - name: Emily Katz
+      role: " Chaperone"
     - name: Jim Wilfong
       role: Mentor
     - name: Jennifer Low
@@ -112,8 +118,6 @@ our_mentors:
       role: Mentor
     - name: Mike Bushue
       role: Lead Fabrication Mentor
-    - name: Michyle LaPedis
-      role: Mentor
     - role: Mentor
       name: Michyle LaPedis
     - name: Mike Gottesman
@@ -126,8 +130,12 @@ our_mentors:
       role: Lead Design Mentor
     - name: Susan Neth
       role: Lead Programming Mentor
+    - name: " Tatiana Elliston"
+      role: " Chaperone"
     - name: Wynne Chan
       role: Mentor
+    - name: " Cindy Huang"
+      role: " Chaperone"
 ---
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{page.who_we_are.image}}" data-position="center center" data-speed="0.7"></div>
 
