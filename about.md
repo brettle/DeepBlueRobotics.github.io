@@ -98,12 +98,12 @@ our_mentors:
       role: Mentor
     - name: Bonnie Wolf
       role: Lead Business Mentor
-    - name: Chris Moropoulo
+    - name: Chris Moropoulos
       role: Mentor
     - name: Dan Deasy
       role: " Staff Chaperone"
-    - name: " Danielle Chamberlin"
-      role: " Chaperone"
+    - name: David Elliston
+      role: Mentor
     - name: Dean Brettle
       role: Coach, Lead Sensing & Actuation Mentor
     - name: Emily Katz
