@@ -101,13 +101,11 @@ our_mentors:
     - name: Chris Moropoulos
       role: Mentor
     - name: Dan Deasy
-      role: " Staff Chaperone"
+      role: School Faculty
     - name: David Elliston
       role: Mentor
     - name: Dean Brettle
       role: Coach, Lead Sensing & Actuation Mentor
-    - name: Emily Katz
-      role: " Chaperone"
     - name: Jim Wilfong
       role: Mentor
     - name: Jennifer Low
@@ -124,18 +122,14 @@ our_mentors:
       role: Mentor
     - name: Nicole Bachelor
       role: Mentor
-    - name: Ms Carefoot Carefoot
-      role: Staff Chaperone
+    - name: Sevgi Carefoot
+      role: School Faculty
     - name: Steve Siefert
       role: Lead Design Mentor
     - name: Susan Neth
       role: Lead Programming Mentor
-    - name: " Tatiana Elliston"
-      role: " Chaperone"
     - name: Wynne Chan
       role: Mentor
-    - name: " Cindy Huang"
-      role: " Chaperone"
 ---
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{page.who_we_are.image}}" data-position="center center" data-speed="0.7"></div>
 
