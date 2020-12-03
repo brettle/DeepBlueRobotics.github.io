@@ -29,47 +29,6 @@ mission:
     environment. We are dedicated to thriving as
 
     a team, and further extending our hands to greet more members of our community with the gracious professionalism and technological opportunities that FIRST has to offer.
-mentors:
-  - name: Al Davies
-    role: Mentor
-  - name: Alex Shimota
-    role: Mentor
-  - name: Bill Crook
-    role: Mentor
-  - name: Blane Stroh
-    role: Mentor
-  - name: Bonnie Wolf
-    role: Mentor
-  - name: Cameron Young
-    role: Mentor
-  - name: Charles Shanefelter
-    role: Mentor
-  - name: Chris Moropoulos
-    role: Mentor
-  - name: Cristina Tudor
-    role: Mentor
-  - name: Curt Nehring
-    role: Mentor
-  - name: David Talcott
-    role: Mentor
-  - name: Dean Brettle
-    role: Mentor
-  - name: Jim Wilfong
-    role: Mentor
-  - name: Matt Moropoulos
-    role: Mentor
-  - name: Michael Gottesman
-    role: Mentor
-  - name: Olga Strongin
-    role: Mentor
-  - name: Rene Saltzherr
-    role: Mentor
-  - name: Sally Piao
-    role: Mentor
-  - name: Shimpei Koike
-    role: Mentor
-  - name: Stoyan Gaydarov
-    role: Mentor
 history:
   title: History
   image: /images/random-image-of-team.jpg
@@ -180,7 +139,7 @@ our_mentors:
 			</h3>
 	<div class="body-font">{{page.our_mentors.content | markdownify}}</div>
 	<div class="list-wrap">
-		{% for m in page.mentors %}
+		{% for m in page.our_mentors.mentors %}
 		<div class="list-chunk mentor-width">
 			<blockquote class="body-font"><strong>{{m.name}}</strong><br>-{{m.role}}</blockquote>
 		</div>
