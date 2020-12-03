@@ -14,7 +14,7 @@ who_we_are:
     FIRST Robotics Competition (FRC), as Team 199, Deep Blue Robotics.
 
 
-    Team 199 consists of Carlmont students, invaluable mentors, and supportive parents. Carlmont also has a Robotics Engineering class.
+    Team 199 consists of Carlmont students, invaluable mentors, and supportive parents.
 layout: default
 permalink: /about
 title: About Us
