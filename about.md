@@ -64,7 +64,7 @@ our_mentors:
     - name: David Elliston
       role: Mentor
     - name: Dean Brettle
-      role: Coach, Lead Sens. & Act. Mentor
+      role: Coach, Lead SenAct Mentor
     - name: Jim Wilfong
       role: Mentor
     - name: Jennifer Low
