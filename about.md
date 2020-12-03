@@ -64,7 +64,7 @@ our_mentors:
     - name: David Elliston
       role: Mentor
     - name: Dean Brettle
-      role: Coach, Lead Sensing & Actuation Mentor
+      role: Coach, Lead Sens. & Act. Mentor
     - name: Jim Wilfong
       role: Mentor
     - name: Jennifer Low
