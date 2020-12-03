@@ -50,7 +50,7 @@ history:
     financial support of our sponsors, the invaluable help of our past and present core teachers, and our school administration's kind accommodation of us.
 our_mentors:
   title: Our Mentors
-  image: images/MrT.png
+  image: /images/100720.jpg
   content: We can't thank you enough!
   mentors:
     - name: Alex Abbas
